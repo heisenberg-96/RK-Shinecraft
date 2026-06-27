@@ -1,0 +1,38 @@
+[
+  {
+    "id": "marble-polishing",
+    "icon": "diamond",
+    "title": "Marble Floor Polishing & Crystallization",
+    "description": "Restoring high-gloss clarity through precise grit-progression diamond honing and crystallization for a mirror-like finish."
+  },
+  {
+    "id": "stone-restoration",
+    "icon": "handyman",
+    "title": "Deep Cleaning & Restoration",
+    "description": "Deep cleaning and restoration of stone surfaces — repairing cracks, chips, and etching with premium, color-matched techniques."
+  },
+  {
+    "id": "stone-polishing",
+    "icon": "grain",
+    "title": "Granite, Mosaic & Kota Stone Polishing",
+    "description": "Specialised polishing for granite, mosaic, and Kota stone surfaces, tailored to each material's natural composition."
+  },
+  {
+    "id": "amc",
+    "icon": "verified_user",
+    "title": "Annual Maintenance Contracts (AMC)",
+    "description": "Scheduled upkeep programs that keep your stone surfaces consistently pristine year-round, with priority scheduling."
+  },
+  {
+    "id": "custom-solutions",
+    "icon": "apartment",
+    "title": "Custom Solutions for Homes, Hotels & Offices",
+    "description": "Tailored programs for residential societies, corporates, and luxury hospitality spaces of any scale."
+  },
+  {
+    "id": "one-time-polish",
+    "icon": "auto_awesome",
+    "title": "One-Time Polishing Service",
+    "description": "A single, thorough polishing visit for homeowners and businesses who want an immediate, lasting transformation."
+  }
+]

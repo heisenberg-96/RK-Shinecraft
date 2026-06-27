@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>RK Shinecraft | Marble Polishing &amp; Stone Care, Kolkata</title>
+<meta name="description" content="RK Shinecraft — professional marble floor polishing, crystallization and stone care in Kolkata. AMC and one-time polishing for homes, offices and hotels."/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&amp;family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link rel="icon" href="/assets/images/logo.png"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-tertiary": "#ffffff",
+                        "inverse-on-surface": "#f4f0ef",
+                        "surface": "#fdf8f8",
+                        "on-primary-fixed": "#1b1b1b",
+                        "primary-container": "#1b1b1b",
+                        "surface-tint": "#5f5e5e",
+                        "tertiary-container": "#28161c",
+                        "secondary-container": "#e1dfdd",
+                        "on-background": "#121212",
+                        "on-secondary-fixed-variant": "#464746",
+                        "outline": "#747878",
+                        "background": "#fdf8f8",
+                        "on-tertiary-fixed": "#28161c",
+                        "on-surface-variant": "#333333",
+                        "surface-container-highest": "#e5e2e1",
+                        "surface-variant": "#e5e2e1",
+                        "secondary-fixed": "#e4e2e0",
+                        "on-error": "#ffffff",
+                        "on-tertiary-fixed-variant": "#574147",
+                        "inverse-surface": "#121212",
+                        "surface-container": "#f1edec",
+                        "outline-variant": "#c4c7c7",
+                        "on-surface": "#121212",
+                        "surface-container-lowest": "#ffffff",
+                        "on-primary-fixed-variant": "#474746",
+                        "on-primary-container": "#858383",
+                        "primary-fixed": "#e5e2e1",
+                        "surface-container-high": "#ebe7e6",
+                        "on-secondary-fixed": "#1b1c1b",
+                        "inverse-primary": "#c8c6c5",
+                        "on-secondary-container": "#444444",
+                        "on-tertiary-container": "#987d83",
+                        "error": "#ba1a1a",
+                        "surface-container-low": "#f7f3f2",
+                        "primary": "#121212",
+                        "on-error-container": "#93000a",
+                        "tertiary-fixed": "#fbdae1",
+                        "error-container": "#ffdad6",
+                        "tertiary-fixed-dim": "#debfc6",
+                        "secondary-fixed-dim": "#c7c6c4",
+                        "secondary": "#333333",
+                        "surface-bright": "#fdf8f8",
+                        "surface-dim": "#ddd9d8",
+                        "primary-fixed-dim": "#c8c6c5",
+                        "tertiary": "#121212",
+                        "on-secondary": "#ffffff",
+                        "on-primary": "#ffffff",
+                        "gold-accent": "#B88E44"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "12px",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "unit": "8px",
+                        "container-max": "1280px",
+                        "margin-mobile": "20px",
+                        "margin-desktop": "64px",
+                        "gutter": "24px",
+                        "section-gap": "120px"
+                    },
+                    "fontFamily": {
+                        "body-lg": ["Inter"],
+                        "body-md": ["Inter"],
+                        "number-display": ["Inter"],
+                        "display-lg-mobile": ["EB Garamond"],
+                        "display-lg": ["EB Garamond"],
+                        "headline-md": ["EB Garamond"],
+                        "label-caps": ["Inter"]
+                    },
+                    "fontSize": {
+                        "body-lg": ["20px", {"lineHeight": "1.7", "letterSpacing": "0.01em", "fontWeight": "500"}],
+                        "body-md": ["17px", {"lineHeight": "1.7", "fontWeight": "500"}],
+                        "number-display": ["24px", {"lineHeight": "1", "fontWeight": "700"}],
+                        "display-lg-mobile": ["40px", {"lineHeight": "1.2", "letterSpacing": "-0.01em", "fontWeight": "400"}],
+                        "display-lg": ["64px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "400"}],
+                        "headline-md": ["32px", {"lineHeight": "1.3", "fontWeight": "400"}],
+                        "label-caps": ["13px", {"lineHeight": "1", "letterSpacing": "0.12em", "fontWeight": "700"}]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        .reveal { opacity: 0; transform: translateY(30px); transition: all 0.8s ease-out; }
+        .reveal.active { opacity: 1; transform: translateY(0); }
+        .marble-overlay { pointer-events: none; opacity: 0.06; }
+        .btn-secondary-gold { border: 2px solid #B88E44; color: #121212; transition: all 0.3s ease; }
+        .btn-secondary-gold:hover { background-color: #B88E44; color: white; }
+        .shadow-soft { box-shadow: 0 10px 30px rgba(0,0,0,0.12); }
+        .line-gold { height: 2px; background-color: #B88E44; opacity: 0.6; }
+        .parallax-bg { transform: translateZ(-1px) scale(1.1); }
+        .form-status { display:none; }
+        .form-status.show { display:block; }
+        button[disabled] { opacity: 0.6; cursor: not-allowed; }
+    </style>
+</head>
+<body class="bg-surface font-body-md text-on-surface overflow-x-hidden selection:bg-gold-accent/30">
+<nav class="fixed top-0 w-full z-50 transition-all duration-500 h-20 flex items-center" id="top-nav">
+<div class="flex justify-between items-center w-full px-margin-desktop max-w-container-max mx-auto">
+<a href="#home" class="flex items-center gap-3">
+<img src="/assets/images/logo.png" alt="RK Shinecraft logo" class="w-10 h-10 rounded-full object-cover"/>
+<span class="font-display-lg text-headline-md tracking-tighter text-primary font-bold">RK Shinecraft</span>
+</a>
+<div class="hidden md:flex space-x-8 items-center">
+<a class="font-label-caps text-label-caps uppercase tracking-widest text-primary border-b-2 border-primary pb-1" href="#home">Home</a>
+<a class="font-label-caps text-label-caps uppercase tracking-widest text-secondary hover:text-primary transition-colors" href="#about">About</a>
+<a class="font-label-caps text-label-caps uppercase tracking-widest text-secondary hover:text-primary transition-colors" href="#services">Services</a>
+<a class="font-label-caps text-label-caps uppercase tracking-widest text-secondary hover:text-primary transition-colors" href="#gallery">Projects</a>
+<a class="font-label-caps text-label-caps uppercase tracking-widest text-secondary hover:text-primary transition-colors" href="#contact">Contact</a>
+<button class="bg-primary text-on-primary px-6 py-2.5 rounded-[8px] font-label-caps uppercase text-label-caps hover:bg-gold-accent transition-colors shadow-md" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Get a Quote</button>
+</div>
+<button class="md:hidden text-primary" id="mobile-menu-btn">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+<div class="hidden md:hidden flex-col w-full bg-white/95 backdrop-blur-md px-margin-mobile py-6 gap-4 shadow-md" id="mobile-menu">
+<a class="font-label-caps text-label-caps uppercase tracking-widest text-primary" href="#home">Home</a>
+<a class="font-label-caps text-label-caps uppercase tracking-widest text-secondary" href="#about">About</a>
+<a class="font-label-caps text-label-caps uppercase tracking-widest text-secondary" href="#services">Services</a>
+<a class="font-label-caps text-label-caps uppercase tracking-widest text-secondary" href="#gallery">Projects</a>
+<a class="font-label-caps text-label-caps uppercase tracking-widest text-secondary" href="#contact">Contact</a>
+</div>
+</nav>
+<section class="relative h-screen w-full flex items-center overflow-hidden" id="home">
+<div class="absolute inset-0 z-0">
+<div class="w-full h-full bg-cover bg-center transition-transform duration-1000 ease-out" id="hero-image" style="background-image: url('/assets/images/staircase.png');">
+</div>
+<div class="absolute inset-0 bg-black/15"></div>
+</div>
+<div class="relative z-10 px-margin-desktop max-w-container-max mx-auto w-full">
+<div class="max-w-2xl bg-white/90 backdrop-blur-md p-10 md:p-16 rounded-xl shadow-soft reveal active border border-white/20">
+<h1 class="font-display-lg text-display-lg-mobile md:text-display-lg mb-6 leading-tight text-primary">
+                Reviving Shine. Restoring Elegance.
+            </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant mb-10">
+                From marble polishing to complete stone restoration, RK Shinecraft transforms surfaces into timeless masterpieces across homes, offices and hotels in Kolkata.
+            </p>
+<div class="flex flex-col sm:flex-row gap-4">
+<button class="bg-primary text-on-primary px-8 py-5 rounded-[8px] font-label-caps uppercase text-label-caps tracking-widest transition-all hover:bg-gold-accent hover:shadow-lg" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Get Free Consultation</button>
+<button class="btn-secondary-gold px-8 py-5 rounded-[8px] font-label-caps uppercase text-label-caps tracking-widest transition-all hover:shadow-lg" onclick="document.getElementById('gallery').scrollIntoView({behavior:'smooth'})">View Projects</button>
+</div>
+</div>
+</div>
+</section>
+<section class="py-section-gap px-margin-desktop max-w-container-max mx-auto" id="about">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-20 items-center">
+<div class="reveal">
+<span class="font-label-caps text-label-caps uppercase tracking-[0.2em] text-gold-accent mb-4 block">Our Heritage</span>
+<h2 class="font-display-lg text-display-lg mb-8 text-primary">Who We Are</h2>
+<div class="line-gold w-24 mb-8"></div>
+<p class="font-body-lg text-body-lg text-on-surface-variant mb-6 leading-relaxed">
+                    RK Shinecraft is a professional marble polishing and stone care company dedicated to bringing back the natural shine and elegance of your floors. We view every floor, countertop and facade as a surface worth preserving with genuine craftsmanship.
+                </p>
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+                    With a highly trained team, advanced floor polishing machines and premium-grade chemicals, we deliver long-lasting results with unmatched finishing quality — for residential, commercial and hospitality spaces alike.
+                </p>
+<ul class="mt-8 space-y-3" id="why-choose-us">
+                    <!-- populated from /api/company -->
+                </ul>
+</div>
+<div class="relative reveal h-[500px]">
+<div class="absolute inset-0 border-2 border-gold-accent/30 rounded-xl translate-x-4 translate-y-4"></div>
+<img alt="Polished marble entryway with medallion inlay" class="w-full h-full object-cover rounded-xl shadow-soft relative z-10" src="/assets/images/hero-poster.png"/>
+</div>
+</div>
+</section>
+<div class="px-margin-desktop max-w-container-max mx-auto"><div class="line-gold"></div></div>
+<section class="py-section-gap px-margin-desktop max-w-container-max mx-auto bg-surface/50" id="services">
+<div class="text-center mb-16 reveal">
+<h2 class="font-display-lg text-headline-md md:text-display-lg mb-4 text-primary">Our Services</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl mx-auto">Comprehensive marble &amp; stone care solutions for the most demanding spaces.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8" id="services-grid">
+  <!-- populated from /api/services -->
+  <div class="reveal text-center font-body-md text-on-surface-variant col-span-3">Loading services…</div>
+</div>
+</section>
+<section class="py-section-gap bg-inverse-surface/5" id="gallery">
+<div class="px-margin-desktop max-w-container-max mx-auto">
+<div class="mb-16 reveal">
+<h2 class="font-display-lg text-display-lg mb-4 text-primary">Art of Transformation</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant">A visual testament to our restoration precision across recent projects.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-px bg-gold-accent/30 rounded-xl overflow-hidden reveal shadow-soft border border-gold-accent/20">
+<div class="relative group cursor-crosshair h-[400px] md:h-[500px]">
+<img alt="Marble kitchen island restoration" class="w-full h-full object-cover" src="/assets/images/kitchen.png"/>
+<div class="absolute top-6 left-6 bg-primary/80 backdrop-blur-md text-white px-5 py-2.5 font-label-caps text-label-caps uppercase tracking-widest">Kitchen Marble</div>
+</div>
+<div class="relative group cursor-crosshair h-[400px] md:h-[500px]">
+<img alt="Polished living room marble flooring" class="w-full h-full object-cover" src="/assets/images/living.png"/>
+<div class="absolute top-6 right-6 bg-gold-accent text-white px-5 py-2.5 font-label-caps text-label-caps uppercase tracking-widest shadow-md">Living Room Floor</div>
+</div>
+<div class="relative group cursor-crosshair h-[400px] md:h-[500px]">
+<img alt="Inlaid marble hallway design" class="w-full h-full object-cover" src="/assets/images/hallway_dark.png"/>
+<div class="absolute top-6 left-6 bg-primary/80 backdrop-blur-md text-white px-5 py-2.5 font-label-caps text-label-caps uppercase tracking-widest">Foyer Inlay</div>
+</div>
+<div class="relative group cursor-crosshair h-[400px] md:h-[500px]">
+<img alt="Grand marble staircase restoration" class="w-full h-full object-cover" src="/assets/images/staircase.png"/>
+<div class="absolute top-6 right-6 bg-gold-accent text-white px-5 py-2.5 font-label-caps text-label-caps uppercase tracking-widest shadow-md">Staircase Polishing</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-24 bg-surface px-margin-desktop max-w-container-max mx-auto">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-12 text-center" id="stats-grid">
+  <!-- populated from /api/company -->
+</div>
+</section>
+<section class="bg-[#0A0A0A] py-section-gap text-white relative overflow-hidden" id="testimonials">
+<div class="absolute top-0 right-0 w-1/3 h-full opacity-5">
+<span class="material-symbols-outlined text-[400px] leading-none select-none">format_quote</span>
+</div>
+<div class="px-margin-desktop max-w-container-max mx-auto relative z-10">
+<h2 class="font-display-lg text-display-lg mb-16 reveal">Client Chronicles</h2>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-16">
+<div class="reveal">
+<p class="font-display-lg text-headline-md italic mb-8 text-white/90">"RK Shinecraft brought our lobby's marble back to life — the team was punctual, careful, and the finish exceeded what we expected from a one-time service."</p>
+<div class="flex items-center gap-4">
+<div class="w-12 h-[2px] bg-gold-accent"></div>
+<p class="font-label-caps text-label-caps uppercase text-gold-accent tracking-widest">Resident Welfare Association, Kolkata</p>
+</div>
+</div>
+<div class="reveal">
+<p class="font-display-lg text-headline-md italic mb-8 text-white/90">"We signed up for their Annual Maintenance Contract for our hotel lobby and corridors — consistent quality every visit, and our floors finally look the way they did on day one."</p>
+<div class="flex items-center gap-4">
+<div class="w-12 h-[2px] bg-gold-accent"></div>
+<p class="font-label-caps text-label-caps uppercase text-gold-accent tracking-widest">Hospitality Client, AMC Customer</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-section-gap px-margin-desktop max-w-container-max mx-auto" id="contact">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-24">
+<div class="reveal">
+<h2 class="font-display-lg text-display-lg mb-8 text-primary">Begin Your<br/>Transformation</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant mb-10 max-w-md">Contact us for a bespoke consultation and complimentary stone assessment.</p>
+<div class="space-y-6" id="contact-details">
+  <!-- populated from /api/company -->
+</div>
+</div>
+<div class="reveal">
+<form class="space-y-8 bg-surface-container-low p-8 md:p-12 rounded-xl shadow-soft border border-gold-accent/10" id="contact-form" novalidate="">
+<div class="grid grid-cols-2 gap-8">
+<div class="border-b-2 border-outline-variant/60 focus-within:border-gold-accent transition-all pb-2">
+<label class="font-label-caps text-[11px] uppercase text-on-surface-variant block mb-1" for="cf-name">Full Name</label>
+<input class="w-full bg-transparent border-none p-0 focus:ring-0 text-body-md font-bold placeholder:text-outline-variant/70" id="cf-name" name="name" placeholder="John Doe" type="text" required=""/>
+</div>
+<div class="border-b-2 border-outline-variant/60 focus-within:border-gold-accent transition-all pb-2">
+<label class="font-label-caps text-[11px] uppercase text-on-surface-variant block mb-1" for="cf-email">Email Address</label>
+<input class="w-full bg-transparent border-none p-0 focus:ring-0 text-body-md font-bold placeholder:text-outline-variant/70" id="cf-email" name="email" placeholder="john@example.com" type="email" required=""/>
+</div>
+</div>
+<div class="grid grid-cols-2 gap-8">
+<div class="border-b-2 border-outline-variant/60 focus-within:border-gold-accent transition-all pb-2">
+<label class="font-label-caps text-[11px] uppercase text-on-surface-variant block mb-1" for="cf-phone">Phone</label>
+<input class="w-full bg-transparent border-none p-0 focus:ring-0 text-body-md font-bold placeholder:text-outline-variant/70" id="cf-phone" name="phone" placeholder="+91 90000 00000" type="tel"/>
+</div>
+<div class="border-b-2 border-outline-variant/60 focus-within:border-gold-accent transition-all pb-2">
+<label class="font-label-caps text-[11px] uppercase text-on-surface-variant block mb-1" for="cf-service">Stone Type / Service Needed</label>
+<select class="w-full bg-transparent border-none p-0 focus:ring-0 text-body-md font-bold appearance-none cursor-pointer" id="cf-service" name="serviceType">
+<option>Marble Polishing &amp; Crystallization</option>
+<option>Deep Cleaning &amp; Restoration</option>
+<option>Granite / Mosaic / Kota Stone Polishing</option>
+<option>Annual Maintenance Contract (AMC)</option>
+<option>Other / Consulting</option>
+</select>
+</div>
+</div>
+<div class="border-b-2 border-outline-variant/60 focus-within:border-gold-accent transition-all pb-2">
+<label class="font-label-caps text-[11px] uppercase text-on-surface-variant block mb-1" for="cf-message">Message</label>
+<textarea class="w-full bg-transparent border-none p-0 focus:ring-0 text-body-md font-bold placeholder:text-outline-variant/70 resize-none" id="cf-message" name="message" placeholder="Tell us about your project..." rows="4" required=""></textarea>
+</div>
+<button class="w-full bg-primary text-on-primary py-5 rounded-[8px] font-label-caps uppercase tracking-widest hover:bg-gold-accent transition-all shadow-md" type="submit" id="cf-submit">Submit Inquiry</button>
+<p class="form-status font-body-md text-sm" id="cf-status"></p>
+</form>
+</div>
+</div>
+</section>
+<footer class="bg-[#0A0A0A] text-white pt-section-gap pb-12 border-t border-white/5">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-gutter px-margin-desktop max-w-container-max mx-auto mb-20">
+<div class="col-span-1 md:col-span-2">
+<h4 class="font-display-lg text-headline-md mb-6 font-bold">RK Shinecraft</h4>
+<p class="font-body-md text-white/60 max-w-sm mb-8">Professional marble polishing and stone care for residential societies, corporates and luxury hotels. Reviving shine. Restoring elegance.</p>
+<div class="flex gap-4">
+<a href="tel:+919831585950" class="w-10 h-10 border-2 border-white/10 flex items-center justify-center rounded-full hover:border-gold-accent transition-colors cursor-pointer group"><span class="material-symbols-outlined text-sm group-hover:text-gold-accent">call</span></a>
+<a href="mailto:rkshinecraft@gmail.com" class="w-10 h-10 border-2 border-white/10 flex items-center justify-center rounded-full hover:border-gold-accent transition-colors cursor-pointer group"><span class="material-symbols-outlined text-sm group-hover:text-gold-accent">mail</span></a>
+<a href="https://www.rkshinecraft.com" target="_blank" rel="noopener" class="w-10 h-10 border-2 border-white/10 flex items-center justify-center rounded-full hover:border-gold-accent transition-colors cursor-pointer group"><span class="material-symbols-outlined text-sm group-hover:text-gold-accent">language</span></a>
+</div>
+</div>
+<div>
+<h5 class="font-label-caps text-label-caps uppercase text-gold-accent mb-6">Explore</h5>
+<ul class="space-y-4">
+<li><a class="font-body-md text-white/70 hover:text-white font-bold transition-all hover:translate-x-1 inline-block" href="#services">Services</a></li>
+<li><a class="font-body-md text-white/70 hover:text-white font-bold transition-all hover:translate-x-1 inline-block" href="#gallery">Our Portfolio</a></li>
+<li><a class="font-body-md text-white/70 hover:text-white font-bold transition-all hover:translate-x-1 inline-block" href="#about">Who We Are</a></li>
+<li><a class="font-body-md text-white/70 hover:text-white font-bold transition-all hover:translate-x-1 inline-block" href="#contact">Request Quote</a></li>
+</ul>
+</div>
+<div>
+<h5 class="font-label-caps text-label-caps uppercase text-gold-accent mb-6">Contact</h5>
+<ul class="space-y-4 font-body-md text-white/70" id="footer-contact">
+  <!-- populated from /api/company -->
+</ul>
+</div>
+</div>
+<div class="px-margin-desktop max-w-container-max mx-auto flex flex-col md:flex-row justify-between items-center border-t border-white/10 pt-12 text-white/40 font-body-md text-sm">
+<p class="font-bold">© 2026 RK Shinecraft. Marble Polishing &amp; Stone Care.</p>
+<div class="flex gap-8 mt-6 md:mt-0">
+<a class="hover:text-gold-accent font-bold" href="#">Privacy Policy</a>
+<a class="hover:text-gold-accent font-bold" href="#">Terms of Service</a>
+</div>
+</div>
+</footer>
+<script src="/assets/js/main.js"></script>
+</body></html>

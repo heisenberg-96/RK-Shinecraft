@@ -1,0 +1,26 @@
+{
+  "name": "RK Shinecraft",
+  "tagline": "Reviving Shine. Restoring Elegance.",
+  "description": "RK Shinecraft is a professional marble polishing and stone care company dedicated to bringing back the natural shine and elegance of your floors. With a highly trained team, advanced floor polishing machines, and premium-grade chemicals, we ensure long-lasting results with unmatched finishing quality.",
+  "whyChooseUs": [
+    "Experienced team with proven expertise",
+    "Latest machines and eco-friendly chemicals",
+    "Affordable packages with guaranteed results",
+    "Trusted by residential societies, corporates, and luxury hotels"
+  ],
+  "stats": [
+    { "label": "Years of Excellence", "value": 8, "suffix": "+" },
+    { "label": "Projects Completed", "value": 500, "suffix": "+" },
+    { "label": "Satisfaction Rate", "value": 100, "suffix": "%" }
+  ],
+  "contact": {
+    "phone": "+91 98315 85950",
+    "phoneRaw": "919831585950",
+    "email": "rkshinecraft@gmail.com",
+    "website": "www.rkshinecraft.com",
+    "address": "C1-34/g3, Shantiniketan Apartment, Block A, Sontoshpur Govt. Colony, Mollargate, Kolkata – 700142",
+    "hours": "Monday – Saturday, 8:00 AM – 6:00 PM",
+    "gst": "194001253271",
+    "udyam": "UDYAM-WB-18-0161095"
+  }
+}
