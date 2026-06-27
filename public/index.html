@@ -119,7 +119,10 @@
 <!-- ─── NAVIGATION ─── -->
 <nav class="fixed top-0 w-full z-50 transition-all duration-500 h-20 flex items-center" id="top-nav">
   <div class="flex justify-between items-center w-full px-margin-desktop max-w-container-max mx-auto">
-    <a href="#home" class="font-display-lg text-headline-md tracking-tighter text-primary font-bold">RK Shinecraft</a>
+    <a href="#home" class="flex items-center gap-3">
+      <img src="assets/images/logo.png" alt="RK Shinecraft logo" class="w-10 h-10 rounded-full object-cover"/>
+      <span class="font-display-lg text-headline-md tracking-tighter text-primary font-bold">RK Shinecraft</span>
+    </a>
     <div class="hidden md:flex space-x-8 items-center">
       <a class="font-label-caps text-label-caps uppercase tracking-widest text-primary border-b-2 border-primary pb-1" href="#home">Home</a>
       <a class="font-label-caps text-label-caps uppercase tracking-widest text-secondary hover:text-primary transition-colors" href="#about">About</a>
@@ -143,8 +146,8 @@
 
 <!-- ─── HERO ─── -->
 <section class="relative h-screen w-full flex items-center overflow-hidden" id="home">
-  <div class="absolute inset-0 z-0">
-    <div class="w-full h-full bg-cover bg-center transition-transform duration-1000 ease-out" id="hero-image" style="background-image: url('assets/images/staircase.png');"></div>
+  <div class="absolute inset-0 z-0 bg-[#111]">
+    <img src="assets/images/staircase.png" alt="" id="hero-image" class="w-full h-full object-cover object-center transition-transform duration-1000 ease-out"/>
     <div class="absolute inset-0 bg-black/20"></div>
   </div>
   <div class="relative z-10 px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto w-full">
